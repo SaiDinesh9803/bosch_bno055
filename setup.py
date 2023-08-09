@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'bno055 = bosch_bno055.basic_imu_test:main'
+            'bno055_pub = bosch_bno055.basic_imu_publisher:main',
+            'bno055_sub = bosch_bno055.basic_imu_plotter:main'
         ],
     },
 )
