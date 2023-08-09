@@ -18,12 +18,12 @@ class MinimalSubscriber(Node):
         self.plotx = []
         self.ploty = []
         self.i = 0
-        plt.show()
+        #plt.show()
 
     def listener_callback(self, msg):
-        self.plotx.append(self.i)
         self.ploty.append(msg.acceleration.x)
-        plt.plot(self.plotx , self.ploty)
+        #plt.plot(self.plotx , self.ploty)
+        plt.plot(self.i , self.ploty[self.i])
         self.i+=1
 
 
