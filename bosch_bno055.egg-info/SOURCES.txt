@@ -1,0 +1,17 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+bosch_bno055/__init__.py
+bosch_bno055/basic_imu_test.py
+bosch_bno055.egg-info/PKG-INFO
+bosch_bno055.egg-info/SOURCES.txt
+bosch_bno055.egg-info/dependency_links.txt
+bosch_bno055.egg-info/entry_points.txt
+bosch_bno055.egg-info/requires.txt
+bosch_bno055.egg-info/top_level.txt
+bosch_bno055.egg-info/zip-safe
+resource/bosch_bno055
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,2 @@
+[console_scripts]
+bno055 = bosch_bno055.basic_imu_test:main
